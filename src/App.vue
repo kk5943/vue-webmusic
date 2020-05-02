@@ -1,7 +1,18 @@
 <template>
   <div id="app">
-    <router-view />
+    <!-- 路由占位符 -->
+    <router-view></router-view>
   </div>
 </template>
 
-<style lang="scss"></style>
+<script>
+export default {
+  name: 'app',
+  components: {}
+}
+</script>
+
+<style>
+@import 'assets/css/base.css';
+@import 'assets/css/global.css';
+</style>
